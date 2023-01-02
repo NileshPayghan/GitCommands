@@ -1,0 +1,20 @@
+# intialized git lfs in repo
+# https://git-lfs.com/
+git lfs install
+
+# select file types like track
+git lfs track "*.zip"
+
+git add .gitattributes
+
+# List all the files from git repo
+git ls-files
+
+git ls-files -z
+
+# list files from git in sorted order with its size and first 10 files
+git ls-files -z | xargs -0 ls -l | sort -nrk5 | head -n 10
+
+#show list of files with KB, MB, GB or TB first 20 files
+git ls-files -z | xargs -0 ls -lh  | sort -nrk5 | head -n 20
+

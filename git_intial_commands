@@ -1,0 +1,35 @@
+# intialize directory to git
+git init
+
+# git all unstaged or new and modified files
+git add .
+
+# commit changes with comment.
+git commit -m "first commit"
+
+# create main branch
+git branch -M main
+
+# set remote origin to git url with access token so that you push and pull data.
+git remote add origin https://{access_token}@github.com/NileshPayghan/GitCommands.git
+
+# check remote origin URL.
+git remote -v
+
+# remove the previous origin if any added to url https://git-scm.com/docs/git-remote
+git remote remove origin
+
+# push data with origin branch name.
+git push -u origin main
+OR
+git push --set-upstream origin main
+
+# after setting upstream you can directly use
+git push
+
+# check git log
+git log
+
+# git-shortlog - Summarize git log output
+git shortlog
+

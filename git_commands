@@ -1,0 +1,17 @@
+# show all branches
+git branch --all
+OR
+git branch -a
+
+# Rename local master branch to main
+git branch --move master main
+
+# delete the master branch 
+git push origin --delete master
+
+
+# checkout the branch
+git checkout main
+
+# reset to previous commit
+git reset --soft HEAD~1
