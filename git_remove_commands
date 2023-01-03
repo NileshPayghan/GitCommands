@@ -1,0 +1,5 @@
+# remove git staged dir from, did not delete from locally
+git rm --cached -r dir_name
+
+# remove git staged file, did not delete it from locally
+git rm --cached -filename
