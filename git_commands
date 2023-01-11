@@ -4,7 +4,8 @@ OR
 git branch -a
 
 # Rename local master branch to main
-git branch --move master main
+git branch --move master main OR
+git branch -m master main
 
 # delete the master branch 
 git push origin --delete master
