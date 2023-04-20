@@ -24,3 +24,5 @@ git checkout --orphan branchname # then add, commit and push to newly created br
 # delete branch
 git branch -d branchname
 
+# clone only single branch
+git clone --single-branch --branch branch-name remote-url
