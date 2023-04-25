@@ -1,0 +1,15 @@
+# check the list of stash
+git stash list
+
+#show the difference between current pull version and stash content
+git stash show -p
+
+# show the different between current pull version and particular stash list, we can see the list by using stash list command
+git stash show -p stash@{0}
+
+
+# apply particular stash changes
+git stash apply stash@{0}
+
+# revert the last stash changes into current tree
+git stash pop
