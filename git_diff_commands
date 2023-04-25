@@ -3,3 +3,6 @@ git diff
 
 # compare changes with stash version with current local tree
 git diff stash@{0}
+
+# check the changes with HEAD 
+git diff HEAD stash@{0}
