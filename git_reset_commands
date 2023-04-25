@@ -1,0 +1,5 @@
+# reset the working tree again to HEAD after your commit
+git reset --soft HEAD~1
+
+git reset .
+
