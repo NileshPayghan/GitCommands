@@ -4,5 +4,8 @@ git diff
 # compare changes with stash version with current local tree
 git diff stash@{0}
 
+#we can also compare with multiple versions of stashes
+git diff stash@{0} stash@{1}
+
 # check the changes with HEAD 
 git diff HEAD stash@{0}
