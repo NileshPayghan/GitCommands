@@ -1,6 +1,9 @@
 # check the list of stash
 git stash list
 
+#list files from stash from last version of stash
+git stash show
+
 #show the difference between current pull version and stash content
 git stash show -p
 
