@@ -1,0 +1,5 @@
+# check the processes with port number 8000
+netstat -vanp tcp | grep 8000
+
+# kill process  with 8000 port opened
+sudo kill -9 $(sudo lsof -t -i:8000)
