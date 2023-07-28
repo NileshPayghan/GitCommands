@@ -1,0 +1,4 @@
+
+
+Scan repo recursively and get secrets withing repo:
+ggshield secret scan --json path . --recursive
