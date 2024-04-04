@@ -1,7 +1,7 @@
-# show all branches
+# branch commands
 git branch --all
-OR
 git branch -a
+git branch --show-current
 
 # Rename local master branch to main
 git branch --move master main OR
